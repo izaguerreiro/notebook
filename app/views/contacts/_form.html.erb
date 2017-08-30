@@ -45,13 +45,17 @@
     </div>
   <% end %>
 
-  <%= form.fields_for :phones do |phones_fields| %>
-    <div class="field">
-      <%= phones_fields.label :phone %>
-      <%= phones_fields.text_field :phone %>
-    </div>
-  <% end %>
+  <div id="phones">
+    <%= form.fields_for :phones do |phones_fields| %>
+      <%= render partial: "phone_fields", locals: {f: phones_fields} %>
+    <% end %>
 
+    <div class="field">
+      <%= form.label :phones, ">" %> <br />
+      <%= link_to_add_association("[Adicionar Telefone]", form, :phones) %>
+    </div>
+  </div>
+  <br />
   <div class="field">
     <%= form.label :rmk %>
     <%= form.text_area :rmk, id: :contact_rmk %>

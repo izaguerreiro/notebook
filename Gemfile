@@ -64,3 +64,9 @@ gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
 
 # O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
 gem 'lerolero_generator'
+
+# A gem to automate using jQuery with Rails
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+
+# Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms http://github.com/nathanvda/cocoon
+gem 'cocoon'
