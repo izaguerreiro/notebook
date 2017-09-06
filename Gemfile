@@ -73,3 +73,9 @@ gem 'cocoon'
 
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps
 gem 'kaminari'
+
+# i18n to kaminari
+gem 'kaminari-i18n'
+
+# Bundler-like DSL + rake tasks for Bower on Rails
+gem "bower-rails", "~> 0.11.0"
