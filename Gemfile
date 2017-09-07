@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
@@ -77,5 +78,5 @@ gem 'kaminari'
 # i18n to kaminari
 gem 'kaminari-i18n'
 
-# Bundler-like DSL + rake tasks for Bower on Rails
-gem "bower-rails", "~> 0.11.0"
+# A simple, versatile notification library
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
