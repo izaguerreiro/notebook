@@ -79,3 +79,6 @@ gem 'kaminari-i18n'
 
 # A simple, versatile notification library
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+
+# The most popular front-end framework for developing responsive, mobile first projects on the web.
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
